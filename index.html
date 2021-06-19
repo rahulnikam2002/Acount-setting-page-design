@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - Rahul Nikam</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    <link rel="shortcut icon" href="/Img/Rahul Nikam.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="big-header">
+            <div class="left">
+                <div class="logo">
+                    <h1>Rahul Nikam</h1>
+                </div>
+                <div class="menu-Items">
+                    <ul class="main-Ul dul-color">
+                        <li>Home</li>
+                        <li>Cities</li>
+                        <li>Villages</li>
+                        <li>Search</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="user-avtar">
+                    <div class="imgg">
+                        <img src="/Img/Rahul Nikam.jpg" alt="">
+                    </div>
+                    <div class="avtar-name dul-color">
+                        <p id="headerAccName">Rahul Nikam</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="logout-btn">Logout</button>
+                </div>
+                <img src="/Img/menu-outline.svg" class="menu-icon" alt="">
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="acc-menu-open-dots">
+            <img src="Img/ellipsis-vertical-outline.svg" alt="" id="accMenuThreeDots">
+        </div>
+    </section>
+
+    <section>
+        <div class="account-Menu">
+            <div class="account-Menu-sect-items">
+                <button>Account</button>
+                <button>Socail Profiles</button>
+            </div>
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="main-account-page-content">
+            <div class="sec-right">
+                <div class="sect-heading">
+                    <h1>Settings</h1>
+                </div>
+                <div class="sect-items">
+                    <p id="accountItem">Account</p>
+                    <p id="notificationItem">Notifications</p>
+                    <p id="passwordItem">Password</p>
+                    <p id="integrationsItem">Integrations</p>
+                    <p id="socailProfilesItem">Socail Profiles</p>
+                    <p id="logOutItem">LogOut</p>
+                </div>
+            </div>
+
+
+
+<!-- Account Section -->
+            <div class="sect-left" id="accountSection">
+                <div class="dect-left-heading-1">
+                    <h1>Account</h1>
+                </div>
+                <div class="sect-left-avatar-2">
+                    <div class="sect-left-avatar-img">
+                        <img src="/Img/Rahul Nikam.jpg" alt="">
+                    </div>
+                    <div class="name-bio">
+                        <p class="user-name" id="userNameAccount">
+                            Rahul Nikam
+                        </p>
+                        <p class="bio" id="UserBioAccount">
+                            Hey, I'm Rahul Nikam a UI designer from India. I'm working in technologies HTML, CSS,
+                            JavaScript, Backend, Adobe XD.
+                        </p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button>Upload</button>
+                    <button>Edit Profile</button>
+                </div>
+                <hr size="1px" style="margin: 30px 0px 10px 0px;">
+
+                <div class="account-edit-form-5">
+                    <form action="a.js" class="acc-edit-frm">
+                        <div class="form-1">
+                            <div class="inner-form-1">
+                                <p>Name</p>
+                                <input type="text">
+                            </div>
+                            <div class="inner-form-2">
+                                <p>Display Name</p>
+                                <input type="text" id="displayName">
+                            </div>
+                        </div>
+                        <div class="form-2">
+                            <div class="inner-form-2-1">
+                                <p>Email</p>
+                                <input type="email">
+                            </div>
+                            <div class="inner-form-2-2">
+                                <p>Bio</p>
+                                <input type="text" id="userBioInput" required>
+                                </div>
+                            </div>
+                            <hr style=" margin: 40px 0px 25px 0px;">
+                                <div class="linked-accs">
+                                    <div class="headings">
+                                        <h1>Linked Accounts</h1>
+                                        <p>We use this to let you sign in and populate your profile in informatin on our
+                                            Website</p>
+                                    </div>
+                                    <div class="acc-connection">
+                                        <div class="left-sect-acc">
+                                            <img src="/Img/google-logo.png" alt="">
+                                            <p>Sign in with Google</p>
+                                        </div>
+                                        <div class="conn-btn">
+                                            <button>Connect</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr style="margin: 40px 0px 25px 0px;">
+                            <div class="last-sect">
+                                <div class="left-del-sect">
+                                    <h1>Delete Account</h1>
+                                    <p>By deleting yor accound you will lose all yopur data.</p>
+                                </div>
+                                <div class="right-del-sect">
+                                    <p>Delete Account...</p>
+                                </div>
+                            </div>
+                            <div class="save-btn">
+                                <input type="submit" value="Save Changes" class="save-bbtn" id="saveProfile">
+                            </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Structure for Notification section -->
+
+            <div class="sect-left" id="notificationSection">
+                <div class="dect-left-heading-1">
+                    <h1>Notification</h1>
+                </div>
+                <div class="notification-msg">
+                    <p>Do you want GaavShahar to send you Notification on your Phone Number, Email, Whatsapp.</p>
+                    <h4>Why we do this?</h4> 
+                    <p>
+                        Whenever we add new Products or when we launch any offers on our Website we would love to Notify our users about that and this is the reason that GaavShahar can send you Notifications.
+                        If you want to receive Notifications form GaavShahar than please tick the Options give below.
+                    </p>
+                    <div class="Notification-buttons">
+                        <Button>
+                            Send Us Notifications
+                        </Button>
+                        <p>
+                            Don't Send Us Notifications...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notification Ends here -->
+
+
+
+
+
+           
+        </div>
+    </section>
+    <section>
+        <div class="main-account-page-content-mobile" id="mobileAccMenuSection">
+            <div class="sec-right-mobile">
+                <div class="sect-heading-mobile">
+                    <h1>Settings</h1>
+                    <img src="/Img/close-outline.svg" alt="" id="accMenuCross">
+                </div>
+                <div class="sect-items-mobile">
+                    <p id="accountItemMobile">Account</p>
+                    <p id="notificationItemMobile">Notifications</p>
+                    <p id="passwordItemMobile">Password</p>
+                    <p id="integrationsItemMobile">Integrations</p>
+                    <p id="socailProfilesItemMobile">Socail Profiles</p>
+                    <p id="logOutItemMobile">LogOut</p>
+                </div>
+            </div>
+    </section>
+    <!-- <button id="saveProfile">Hello</button> -->
+    <!-- icon Library -->
+    <!-- <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script> -->
+
+<script src="/src/js/app.js"></script>
+
+
+</body>
+
+</html>

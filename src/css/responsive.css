@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+@media (min-width: 320px) and (max-width: 425px){
+    .user-avtar,
+    .button button,
+    .menu-Items ul{
+    display: none;
+    }
+    .menu-icon{
+        display: inline-block;
+    }
+    .logo h1{
+        font-size: 16px;
+    }
+
+    input{
+        overflow: hidden;
+        width: 250px;
+    }
+    .sec-right{
+        display: none;
+    }
+
+    .sect-left{
+        width: 100%;
+        height: 1160px;
+        /* display: none; */
+    }
+
+    .sect-left-avatar-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .name-bio p:first-child{
+        position: relative;
+        top: 24.8%;
+        left: 30%;
+    } */
+
+    .btns{
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-between;
+    }
+
+    .btns button:first-child,
+    .btns button:last-child{
+        margin: 5px 0px;
+        width: 45%;
+        padding: 8px 0px;
+    }
+
+    .form-1 p,
+    .form-2 p{
+        font-size: 14px;
+    }
+
+
+    .acc-connection{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .conn-btn button{
+        padding: 8px 0px;
+        margin: 14px 0px 0px 0px;
+        width: 250px;
+    }
+
+    .headings h1{
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+
+    .last-sect{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    .left-del-sect p {
+        font-size: 12px;
+    }
+
+    .left-del-sect h1 {
+        font-size: medium;
+    }
+
+    .right-del-sect p{
+        border: none;
+        background-color: white;
+        padding: 6px 20px;
+        color: #0a6cff;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 6px;
+        box-shadow: 0px 0px 11px -4px rgb(162 162 162 / 50%);
+        cursor: pointer;
+        margin: 10px 0px;
+        width: 250px;
+        text-align: center;
+    }
+
+
+    .save-bbtn {
+        width: 100%;
+    }
+
+
+
+
+    .account-Menu{
+        /* background-color: white; */
+        /* box-shadow: 0px 0px 11px -4px rgb(0 0 0 / 10%); */
+        width: 89%;
+        margin: 20px auto 5px auto;
+        /* border-radius: 10px; */
+    }
+
+    .account-Menu-sect-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .account-Menu-sect-items button{
+        width: 45%;
+        background-color: #0a6cff;
+        border: none;
+        color: white;
+        padding: 10px 0px;
+        border-radius: 6px;
+        font-family: "poppins";
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .acc-menu-open-dots{
+        height: 0px;
+       
+    }
+
+    .acc-menu-open-dots img{
+        width: 25px;
+        position: relative;
+        left: 85%;
+        top: 35px;
+        cursor: pointer;
+        display: inline-block;
+        z-index: 10;
+    }
+
+
+    .main-account-page-content-mobile{
+        /* background-color: rgb(231, 186, 186); */
+        background-color: rgb(255, 255, 255);
+        width: 65%;
+        /* padding: 0px; */
+        margin: 0px;
+    }
+
+
+    .main-account-page-content-mobile{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 100vh;
+        position: absolute;
+        top: 91px;
+        position: fixed;
+        display: none;
+    }
+    .sec-right-mobile{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .sect-items-mobile p{
+        margin: 10px 0px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .sect-items-mobile p:first-child{
+        background-color: #ddebfe;
+    }
+
+    .sect-heading-mobile img{
+        width: 25px;
+        position: relative;
+        bottom: 140px;
+        left: 130px;
+        cursor: pointer;
+    }
+
+    #notificationSection {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 19px;
+        width: 89%;
+        height: 560px;
+    }
+
+
+    .Notification-buttons {
+        display: flex;
+        align-items: flex-start;
+        margin: 20px 0px;
+        flex-direction: column;
+    }
+
+
+    .Notification-buttons button {
+        margin: 0px 20px 10px 0px;
+    }
+}

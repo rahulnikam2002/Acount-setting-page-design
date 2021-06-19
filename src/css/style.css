@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+
+a,
+p,
+li,
+ul,
+img,
+h1,
+h2,
+h3{
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+*{
+    padding: 0ox;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.dul-color{
+    color: #585d67;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f9fbfe;
+}
+/* Left Section */
+.big-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: 26px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.menu-Items ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.menu-Items ul li{
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+
+/* Right Section */
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.user-avtar{
+    display: flex;
+    align-items: center;
+    margin: 0px 35px 0px 15px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button img{
+    position: relative;
+    left: 31px;
+}
+
+
+.logout-btn{
+    text-align: right;
+    background-color: #0a6cff;
+    color: white;
+    border: none;
+    padding: 8px 28px;
+    border-radius: 6px;
+    font-family: "poppins",sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.imgg img{
+    width: 34px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+.avtar-name{
+    cursor: pointer;
+}
+
+.button img{
+    width: 20px;
+}
+
+.menu-icon{
+    width: 30px;
+    display: none;
+}
+
+/* section left */
+
+.main-account-page-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-section{
+    padding: 0px 20px;
+}
+
+.sec-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 116vh;
+    width: 20%;
+    background-color: white;
+    margin: 21px 0px;
+    box-shadow: 0px 0px 11px -4px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.sect-items p{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sect-items p:first-child{
+    background-color: #ddebfe;
+}
+
+.sect-items p:hover{
+    background-color: #ddebfe;
+}
+
+/* Section Right */
+
+.sect-left{
+    width: 78%;
+    background-color: white;
+    height: 116vh;
+    background-color: white;
+    margin: 21px 0px 21px 0px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px -4px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+
+}
+
+.dect-left-heading-1 h1{
+    padding: 0px 0px 20px 0px;
+}
+
+.sect-left-avatar-2{
+    display: flex;
+}
+
+.sect-left-avatar-img img{
+    width: 45px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 0px;
+}
+
+.name-bio p:first-child{
+    font-size: 20px;
+}
+.name-bio p:last-child{
+    font-size: 14px;
+}
+
+.btns{
+    margin: 16px 0px;
+}
+
+.btns button:first-child{
+    border: none;
+    background-color: white;
+    padding: 6px 20px;
+    color: #0a6cff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0px 0px 11px -4px rgb(162 162 162 / 50%);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btns button:last-child{
+    border: none;
+    background-color: white;
+    padding: 6px 20px;
+    color: #585d67;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0px 0px 11px -4px rgb(162 162 162 / 50%);
+    cursor: pointer;
+}
+
+
+
+/* form */
+.account-edit-form-5{
+    margin: 20px 0px;
+}
+
+.acc-edit-frm .form-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.acc-edit-frm .form-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    width: 450px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c0c1c2;
+}
+input:focus{
+    box-shadow: 0px 0px 11px -4px #0a6cff;
+
+    border: 1px solid #0a6cff;
+}
+
+.form-1 p{
+    margin: 10px 0px 0px 0px;
+}
+.form-2 p{
+    margin: 20px 0px 0px 0px;
+}
+
+.left-sect-acc img{
+    width: 45px;
+    margin: 0px 10px 0px 0px;
+}
+
+.conn-btn button{
+    border: none;
+    background-color: white;
+    padding: 8px 25px;
+    color: #0a6cff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0px 0px 11px -4px rgb(162 162 162 / 50%);
+    cursor: pointer;
+}
+
+.left-sect-acc{
+    display: flex;
+    align-items: center;
+}
+
+.headings h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.headings p{
+    font-size: 14px;
+}
+
+.acc-connection{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-sect{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-del-sect h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.left-del-sect p{
+    font-size: 14px;
+}
+
+.right-del-sect p{
+    cursor: pointer;
+}
+
+.save-bbtn{
+    width: 15%;
+    cursor: pointer;
+    background-color: #0a6cff;
+    color: white;
+    border: none;
+    padding: 8px 28px;
+    border-radius: 6px;
+    font-family: "poppins",sans-serif;
+    font-size: 14px;
+}
+
+.save-btn{
+    position: relative;
+    /* left: 818px; */
+    width: 100%;
+    margin-top: 30px;
+
+    /* -webkit-tap-highlight-color: transparent; */
+}
+
+
+
+.account-Menu{
+    display: none;
+}
+
+
+
+/* Notification-buttons */
+
+.Notification-buttons{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+
+.Notification-buttons button{
+    padding: 8px 30px;
+    cursor: pointer;
+    background-color: #0a6cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: "poppins",sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px 20px 0px 0px;
+}
+
+
+.Notification-buttons p{
+    cursor: pointer;
+    color: #0a6cff;
+    font-family: "poppins",sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.notification-msg h4{
+    margin: 25px 0px 0px 0px;
+}
+
+
+#notificationSection{
+    display: none;
+    position: absolute;
+    top: 82px;
+    left: 348px;
+    width: 75.5%;
+}
+/* 
+#notificationSection {
+    display: block;
+    position: absolute;
+    top: 70px;
+    width: 89%;
+} */
+
+
+.acc-menu-open-dots img{
+    display: none;
+}
+
+
+.main-account-page-content-mobile{
+    display: none;
+}
